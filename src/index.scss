@@ -1,0 +1,44 @@
+@import './core/ui-builder/variables';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root {
+  height: 100vh;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.widgets-panel > .accordion   {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.widgets-panel > .accordion .title {
+  font-weight: 600 !important;
+  font-size: .9em !important;
+}
+
+.widgets-panel > .accordion .active.title {
+  font-size: 1em !important;
+}
+
+.widgets-panel > .accordion .item:hover {
+  font-size: 1.1em !important;
+}
+
+.widgets-panel > .accordion .item {
+  padding: 7px !important;
+}

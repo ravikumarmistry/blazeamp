@@ -1,0 +1,11 @@
+@import './variables';
+.navbar {
+    height: 50px;
+    background-color: $navbar-bgc;
+}
+
+.brand {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: $navbar-tc;
+}
